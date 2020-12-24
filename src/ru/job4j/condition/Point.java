@@ -5,8 +5,8 @@ public class Point {
         double rsl = x2 - x1;
         return rsl;
 
-        double rsl = y2 - y1;
-        return rsl;
+        //double rsl = y2 - y1;
+       // return rsl;
 
     }
 
