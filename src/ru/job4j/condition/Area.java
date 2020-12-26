@@ -2,7 +2,7 @@ package ru.job4j.condition;
 
 public class Area {
     public static double area(double a, double b, double c) {
-        double x = Math.sqrt(a * b * c);
+        double x = Math.sqrt(a + b + c);
         return x;
     }
 
