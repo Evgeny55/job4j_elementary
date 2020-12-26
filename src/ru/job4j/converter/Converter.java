@@ -4,6 +4,7 @@ public class Converter {
     public static int rubleToEuro(int valve) {
         return valve / 70;
     }
+
     public static int rubleToDollars(int valve) {
         return valve / 60;
     }
