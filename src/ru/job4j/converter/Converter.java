@@ -8,6 +8,8 @@ public class Converter {
     public static int rubleToDollars(int valve) {
         return valve / 60;
     }
+
+    @SuppressWarnings("checkstyle:EmptyLineSeparator")
     public static void main(String[] args) {
         int euro = Converter.rubleToEuro(140);
         int dollars = Converter.rubleToDollars(120);

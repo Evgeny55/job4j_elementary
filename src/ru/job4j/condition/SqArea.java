@@ -8,6 +8,8 @@ public class SqArea {
         return s;
 
     }
+
+    @SuppressWarnings("checkstyle:EmptyLineSeparator")
     public static void main(String[] args) {
         double result = SqArea.square(6, 2);
         System.out.println(result);
