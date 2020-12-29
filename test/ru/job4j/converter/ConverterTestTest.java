@@ -3,11 +3,8 @@ package ru.job4j.converter;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+public class ConverterTestTest {
 
-public class ConverterTest {
-
-    @Test
     public void whenConverter140RubleThen2Euro() {
         int valve1 = 140;
         int expected1 = 2;
@@ -15,11 +12,8 @@ public class ConverterTest {
         Assert.assertEquals(expected1, out1);
     }
 
-    public static int rubleToEuro(int valve1) {
-        return -2;
+    public void whenConverter180RubleThen3Euro() {
+
     }
 
-    @Test
-    public void whenConverter140RubleTThen2Euro() {
-    }
 }
