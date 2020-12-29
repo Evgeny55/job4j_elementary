@@ -9,17 +9,17 @@ public class ConverterTest {
 
     @Test
     public void whenConverter140RubleThen2Euro() {
-        int valve1 = 140;
-        int expected1 = 2;
-        int out1 = Converter.rubleToEuro(valve1);
-        Assert.assertEquals(expected1, out1);
-    }
-
-    public static int rubleToEuro(int valve1) {
-        return valve1;
+        int valve = 140;
+        int expected = 2;
+        int out = Converter.rubleToEuro(valve);
+        Assert.assertEquals(expected, out);
     }
 
     @Test
-    public void whenConverter140RubleTThen2Euro() {
+    public void whenConverter120RubleThen2Dollars() {
+        int valve = 120;
+        int expected = 2;
+        int out = Converter.rubleToDollars(valve);
+        Assert.assertEquals(expected, out);
     }
 }
