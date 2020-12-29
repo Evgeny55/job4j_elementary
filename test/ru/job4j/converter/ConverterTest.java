@@ -16,7 +16,7 @@ public class ConverterTest {
     }
 
     public static int rubleToEuro(int valve1) {
-        return -2;
+        return valve1;
     }
 
     @Test
