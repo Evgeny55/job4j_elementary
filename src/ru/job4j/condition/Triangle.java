@@ -6,8 +6,4 @@ public class Triangle {
         return false;
     }
 
-    public void whenExist() {
-        boolean result = Triangle.exist(2.0, 2.0, 2.0);
-        assertThat(result, is(true));
-    }
 }
