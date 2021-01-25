@@ -21,11 +21,11 @@ public class LogicNot {
 
     public boolean notEvenAndPositive(int num) {
 
-        return !notEven(num) && isPositive(num);
+        return !notEven(num) && !isPositive(num);
     }
 
     public boolean evenOrNotPositive(int num) {
 
-        return isEven(num) && isPositive(num);
+        return !isEven(num) && !isPositive(num);
     }
 }
