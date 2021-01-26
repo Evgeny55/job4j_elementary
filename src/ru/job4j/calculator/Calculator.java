@@ -1,8 +1,6 @@
 package ru.job4j.calculator;
 
 public class Calculator {
-    private static java.lang.Object System;
-
     public static <String> void main(String[] args) {
         int six = 6;
         int two = 2;
@@ -11,8 +9,8 @@ public class Calculator {
         int sixDivTwo = six / two;
         int fiveMinusTwo = five - two;
         int fourTimeTwo = four * two;
-//        System.out.println(sixDivTwo);
-//        System.out.println(fiveMinusTwo);
-//        System.out.println(fourTimeTwo);
+        System.out.println(sixDivTwo);
+        System.out.println(fiveMinusTwo);
+        System.out.println(fourTimeTwo);
     }
 }

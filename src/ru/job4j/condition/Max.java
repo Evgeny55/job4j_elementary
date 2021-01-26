@@ -5,8 +5,6 @@ public class Max {
         return left >= right ? left : right;
     }
 
-
-
     private static int max(int i) {
         int sum = Max.max(5);
         return sum;

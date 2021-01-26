@@ -19,7 +19,5 @@ public class Liken {
 
         boolean result2 = first2 == second2;
         System.out.println(result2);
-
-
     }
 }
