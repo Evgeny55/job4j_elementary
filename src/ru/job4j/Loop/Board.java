@@ -6,9 +6,9 @@ public class Board {
         for (int row = 0; row < width; row++) {
             for (int cell = 0; cell < height; cell++) {
                 if ((row + cell) % 2 == 0) {
-                    System.out.println("X");
+                    System.out.print("X");
                 } else {
-                    System.out.println("X");
+                    System.out.print("X");
                 }
             }
 
