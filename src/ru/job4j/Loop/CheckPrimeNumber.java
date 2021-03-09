@@ -1,19 +1,28 @@
 package ru.job4j.Loop;
 
 public class CheckPrimeNumber {
-    public static boolean check(int number) {
-        boolean prime = true;
-        for (int i = 1; i < number; i++) {
-        } if ((number % 5) == 0) {
-            prime = false;
+
+
+    public static int calc(int finish) {
+
+        int coint = 0;
+        for (int num = 1; num < finish; num++) {
         }
-        return prime;
+        int num = 0;
+        if (CheckPrimeNumber.check(num)) {
+        } else if ((num % 5) == 0) {
+
+        }
+
+        return coint++;
     }
 
 
-    public static void main (String[]args){
-        System.out.println(check(5));
-        System.out.println(check(4));
-        System.out.println(check(1));
+
+        public static void main (String[]args){
+            System.out.println(calc(5));
+            System.out.println(calc(4));
+            System.out.println(calc(1));
+        }
     }
-}
+
