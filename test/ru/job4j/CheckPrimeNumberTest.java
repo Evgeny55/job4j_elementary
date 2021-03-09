@@ -1,30 +1,27 @@
-package ru.job4j.loop;
+package ru.job4j;
 
+import org.junit.Assert;
 import org.junit.Test;
-import ru.job4j.CheckPrimeNumber;
-import ru.job4j.Loop.Fitness;
 
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.*;
 
-class PrimeNumberTest {
-    private CheckPrimeNumber PrimeNumber;
-
+public class CheckPrimeNumberTest {
     @Test
     public void when5() {
-        int count = PrimeNumber.calc(5);
-        assertThat(count, is(3));
+        boolean rsl = CheckPrimeNumber.check(5);
+        assertThat(rsl, is(true));
     }
 
     @Test
-    public void when11() {
-        int count = PrimeNumber.calc(11);
-        assertThat(count, is(5));
+    public void when4() {
+        boolean rsl = CheckPrimeNumber.check(4);
+        Assert.assertThat(rsl, is(false));
     }
 
     @Test
-    public void when2() {
-        int count = PrimeNumber.calc(2);
-        assertThat(count, is(1));
+    public void when1() {
+        boolean rsl = CheckPrimeNumber.check(1);
+        assertThat(rsl, is(false));
     }
 }
